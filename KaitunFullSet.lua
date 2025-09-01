@@ -26,12 +26,16 @@ getgenv().Configs = {
     ["FPS Booster"] = true;
 };
 loadstring(game:HttpGet("https://cdn.authguard.org/virtual-file/252b811c562348a9b436d2c0d6bfae6b"))()
-end)
+            end)
 
 task.spawn(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BFInfoUi/refs/heads/main/BFInfoUi.lua"))()
-end)
+            end)
 
 task.spawn(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/DonHackRoblox/refs/heads/main/DonHackRoblox.lua"))()
+            end)
+
+task.spawn(function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/TimeUi/refs/heads/main/TimeUi.lua"))()
             end)
