@@ -34,3 +34,4 @@ end)
 
 task.spawn(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/DonHackRoblox/refs/heads/main/DonHackRoblox.lua"))()
+            end)
