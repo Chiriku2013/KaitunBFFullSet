@@ -1,16 +1,12 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Configs = {
     ["Quest"] = {
+        ["Evo Race V1"] = true;
         ["Evo Race V2"] = true;
-        ["Evo Race V3"] = true;
         ["RGB Haki"] = true;
         ["Pull Lerver"] = true;
     };
-        ["Webhook"] = {
-        ["Url Webhook"] = "";
-        ["Ping discord"] = "";      
-        ["Time Send"] = "10m";
-    };
-    ["Sword"] = {
+    Sword = {
         "Saber";
         "Pole (1st Form)";
         "Gravity Blade";
@@ -22,14 +18,16 @@ getgenv().Configs = {
         "Tushita";
         "Cursed Dual Katana";
     };
-    ["Gun"] = {
-        "Skull Guitar";
+    Gun = {
+        "Soul Guitar";
         "Kabucha";
         "Venom Bow";
+        "Dual Flintlock";
+        "Bazooka";
     };
-    ["FPS Booster"] = true;
+    ["FPS Booster"] = false;
 };
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinsayhi/refs/heads/main/KaitunBloxFruit.lua"))()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/8cffffd967953fe7"))()
 wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BFInfoUi/refs/heads/main/BFInfoUi.lua"))()
 wait(1)
